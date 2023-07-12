@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(printf "%0.shtbeolhc" $(($(echo $WATER | tr '[:alpha:]' '[:digit:]') + $(echo $STIR | tr '[:alpha:]' '[:digit:]'))))
